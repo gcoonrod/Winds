@@ -1,15 +1,23 @@
 {
-  "author": "YOU <YOU@example.com>",
-  "name": "my_actionhero_project",
-  "description": "my actionhero project",
+  "author": "Greg Coonrod <greg.coonrod@gmail.com>",
+  "name": "winds-ah",
+  "description": "winds ah backend",
   "version": "0.1.0",
   "engines": {
-    "node": ">=8.0.0"
+    "node": ">=10.0.0"
   },
   "dependencies": {
     "actionhero": "19.0.2",
-    "ws": "latest",
-    "ioredis": "latest"
+    "glob": "^7.1.2",
+    "ioredis": "latest",
+    "mongodb": "^3.1.0",
+    "mongoose": "^5.1.6",
+    "mongoose-autopopulate": "^0.7.0",
+    "mongoose-bcrypt": "^1.5.1",
+    "mongoose-string-query": "^0.2.5",
+    "mongoose-timestamp": "^0.6.0",
+    "mongoose-validators": "^0.1.0",
+    "ws": "latest"
   },
   "devDependencies": {
     "jest": "latest",

@@ -171,7 +171,4 @@ UserSchema.methods.serializeAuthenticatedUser = function serializeAuthenticatedU
 	return serialized;
 };
 
-module.exports = {
-	schema: 'User',
-	model: mongoose.model('User', UserSchema)
-}
+module.exports = exports = mongoose.model('User', UserSchema);
